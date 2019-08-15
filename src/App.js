@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/header';
+import Footer from './components/footer';
 import FeaturedContentBlock from './components/featuredContentBlock'
 import { appKitContentModel, rMockContentModel, workContentModel, teamContentModel } from './models/featuredContentModel'
 import { firstContentBlockStyle, secondContentBlockStyle, thirdContentBlockStyle, fourthContentBlockStyle } from './styles/homePage.js'
@@ -15,6 +16,7 @@ class App extends Component {
         <FeaturedContentBlock style={secondContentBlockStyle} model={rMockContentModel} />
         <FeaturedContentBlock style={thirdContentBlockStyle} model={workContentModel} />
         <FeaturedContentBlock style={fourthContentBlockStyle} model={teamContentModel} />
+        <Footer />
       </div>
     );
   }

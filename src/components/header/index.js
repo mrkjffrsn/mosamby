@@ -6,8 +6,8 @@ class Header extends Component {
     return (
       <header className="site-header">
         <nav>
-          <a href='#'> <span> Roku App Kit </span> </a>
-          <a href='#'> <span> rMock </span> </a>
+          <a href='/#'> <span> Roku App Kit </span> </a>
+          <a href='/#'> <span> rMock </span> </a>
         </nav>
       </header>
     );
